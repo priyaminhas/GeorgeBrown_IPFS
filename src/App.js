@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import UploadFile from './components/UploadFile';
+import DownloadFile from './components/DownloadFile';
 import './App.css';
-
+// eslint-disable-next-line
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UploadFile />
+      <DownloadFile />
     </div>
   );
-}
+} 
 
 export default App;
